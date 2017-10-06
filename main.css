@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+          /*para darle estilo a la web, alinearla al centro, funciona con textos e imagenes*/
+}
+
+.cuadrado-color{   /*lo ponemos con un punto para que css sepa que estamos hablando de una clase*/
+  background-color: black;             /* se pueden poner los colores directamente en inglés*/
+/*  background-color: #0040FF;               /*se puede hacer poniendo el codigo del color*/
+  /*background-color: rgb(86, 102, 161) ;             /* se pueden poner con rgb tambien */
+  padding-bottom: 20px; /* para separar las cajas*/
+  }
+
+p{
+  color: black;    /*cambiar el color del parrafo*/
+
+                                /*para poner las fuentes ir a google fonts*/
+
+}
+
+h1{
+  color: orange;
+         /*cursive significa el valor que va a tomar la letra si no está disponible la fuente*/
+
+}
+/*img{  /*para todas las imagenes
+  width: 400px;  /*para el ancho de las imagenes
+  height: 300px; /*para el largo, pero generalmente solo se ocupa el ancho
+}
+*/
+.foto-grupo{       /* para cambiar el tamaño de las imagenes por separado llamamos a la clase que le designamos a esas foto*/
+  width: 400px;
+  height: 300px
+}
+.foto-logo{
+  width: 200px;
+
+}
+/*hacer el separador para una caja, puntos o lineas etc (buscar types border css)*/
+.enlaces{
+  border-top: 1px dashed grey;
+}
