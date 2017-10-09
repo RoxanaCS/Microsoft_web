@@ -40,7 +40,7 @@ h1{
 }
 /*hacer el separador para una caja, puntos o lineas etc (buscar types border css)*/
 .enlaces{
-  border-top: 1px dashed grey;
+  border-top: 1px dotted #E3DFD8;
 }
 h3{
   color: white;
